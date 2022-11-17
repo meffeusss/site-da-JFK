@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="infpagstyle.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="main-content">
+      <p class="text">INFORMAÇÕES DE PAGAMENTO</p>
+    </div>
+
+    <div class="centre-content">
+      <h1 class="price">123<span>/5896</span></h1>
+      <p class="course">
+         Nome do pacote:  <br>
+         Valor do pacote: R$0000,00 <br>
+         Valor de Taxas: R$00,00 <br>
+         Total de desconto: R$00,00
+      </p>
+    </div>
+    
+    <div class="last-content">
+        <label> CODIGO DO CUPOM  </label>
+        <input type="text"
+          class="card-cop-field"
+          placeholder=""/>
+      <button type="button" class="pay-now-btn">
+         Aplicar Cupom
+      </button>
+      <!-- <button type="button" class="pay-now-btn">
+      Netbanking options
+      </button> -->
+    </div>
+
+    <div class="card-details">
+      <p>CARTÃO DE CRÉDITO OU DÉBITO</p>
+
+      <div class="card-number">
+        <label>Número do cartão </label>
+        <input
+          type="text"
+          class="card-number-field"
+          placeholder="###-###-###"/>
+      </div>
+      <br />
+      <div class="date-number">
+        <label>Data de validade </label>
+        <input type="text" class="date-number-field" 
+               placeholder="- / -" />
+      </div>
+
+      <div class="cvv-number">
+        <label> CVV </label>
+        <input type="text" class="cvv-number-field" 
+               placeholder="xxx" />
+      </div>
+      <div class="nameholder-number">
+        <label> Nome  no cartão </label>
+        <input
+          type="text"
+          class="card-name-field"
+          placeholder="Seu Nome"/>
+      </div>
+      <button type="submit" 
+              class="submit-now-btn">
+       <a href="finalcompra.html"> Finalizar compra</a>
+      </button>
+    </div>
+  </div>
+</body>
+</html>

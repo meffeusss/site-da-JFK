@@ -1,0 +1,45 @@
+body{
+    background:url(https://1.bp.blogspot.com/-TyBPkR32bJg/X35Nk6Tx0GI/AAAAAAAA3sg/in0LfIqa7RYHt4Ay4X5w5WsPmjIV9s1jQCLcBGAsYHQ/w1200-h630-p-k-no-nu/nebula_stars_space_188398_2560x1440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 155px;
+    
+    text-align: center;
+    
+}
+
+
+
+h3{ 
+    color: #7cf448;
+    font-family: fantasy;
+    font-style: italic;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+     
+}
+
+form{
+    width: 500px;
+  min-height: 560px;    
+  margin: 0px auto;
+  position: relative;  
+  text-align: start;
+    color: #7cf448;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+   font-family: fantasy;
+   font-size: larger;
+
+}
+
+.form-control{
+    -webkit-text-stroke: 0px rgb(0, 0, 0);
+    font-size: large;
+    font-family: fantasy;
+}
+
+.btn-primary{
+     
+    
+    
+
+}
